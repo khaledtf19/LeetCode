@@ -1,5 +1,3 @@
-use std::i8;
-
 fn main() {
     println!("{:?}", is_path_crossing("NESWW".to_string()));
 }
@@ -21,4 +19,19 @@ pub fn is_path_crossing(path: String) -> bool {
         seen.push((x, y))
     }
     false
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_path_true() {
+        assert_eq!(is_path_crossing("NESWW".to_string()), true);
+    }
+
+    #[test]
+    fn test_path_false() {
+        assert_eq!(is_path_crossing("NES".to_string()), false);
+    }
 }
