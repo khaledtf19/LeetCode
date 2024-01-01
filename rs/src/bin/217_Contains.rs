@@ -22,7 +22,12 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_contains() {
+    fn test_contains_true() {
         assert_eq!(contains_duplicate(vec![1, 2, 3, 1]), true)
+    }
+
+    #[test]
+    fn test_contains_false() {
+        assert_eq!(contains_duplicate(vec![1, 2, 3, 4]), false)
     }
 }
