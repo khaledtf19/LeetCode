@@ -9,6 +9,9 @@ fn main() {
 }
 
 pub fn number_of_beams(bank: Vec<String>) -> i32 {
+    if bank.len() < 2 {
+        return 0;
+    }
     let mut prev_num = 0;
     let mut result: i32 = 0;
     for row in bank.iter() {
