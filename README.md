@@ -7,3 +7,4 @@
 - [242. Valid Anagram](./rs/src/bin/242_Valid.rs)
 - [1. Two Sum](./rs/src/bin/1_Two_sum.rs)
 - [2125. Number of Laser Beams in a Bank](./rs/src/bin/2125_Number.rs)
+- [347. Top K Frequent Elements](./rs/src/bin/347_Top_k.rs)
