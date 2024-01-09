@@ -12,7 +12,7 @@ pub fn word_pattern(pattern: String, s: String) -> bool {
     if s.split(" ").collect::<Rc<[&str]>>().len() != pattern.len() {
         return false;
     }
-    let mut hm: HashMap<char, &str> = HashMap::with_capacity(pattern.len());
+    let mut hm: HashMap<char, &str> = HashMap::new();
     for (i, str) in s.split(" ").enumerate() {
         match hm.get(&pattern[i]) {
             Some(&v) => {
