@@ -10,3 +10,5 @@
 - [347. Top K Frequent Elements](./rs/src/bin/347_Top_k.rs)
 - [268. Missing Number](./rs/src/bin/268_Missing_number.rs)
 - [1512. Number of Good Pairs](./rs/src/bin/1512_Number_of_good.rs)
+- [290. Word Pattern](./rs/src/bin/290_Word_pattern.rs)
+- [219. Contains Duplicate II](./rs/src/bin/219_Contains_duplicate2.rs)
