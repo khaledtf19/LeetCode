@@ -12,3 +12,4 @@
 - [1512. Number of Good Pairs](./rs/src/bin/1512_Number_of_good.rs)
 - [290. Word Pattern](./rs/src/bin/290_Word_pattern.rs)
 - [219. Contains Duplicate II](./rs/src/bin/219_Contains_duplicate2.rs)
+- [169. Majority Element](./rs/src/bin/169_Majority_element.rs)
