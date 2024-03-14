@@ -22,5 +22,5 @@ unsafe fn gussNumber(n: i32) -> i32 {
             _ => {}
         }
     }
-    0
+    lo
 }
